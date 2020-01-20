@@ -9,3 +9,14 @@ C:\Learning\XML\GetProcesses\GetProcesses\obj\Debug\netcoreapp3.1\GetProcesses.A
 C:\Learning\XML\GetProcesses\GetProcesses\obj\Debug\netcoreapp3.1\GetProcesses.AssemblyInfo.cs
 C:\Learning\XML\GetProcesses\GetProcesses\obj\Debug\netcoreapp3.1\GetProcesses.dll
 C:\Learning\XML\GetProcesses\GetProcesses\obj\Debug\netcoreapp3.1\GetProcesses.pdb
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\bin\Debug\netcoreapp3.1\GetProcesses.exe
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\bin\Debug\netcoreapp3.1\GetProcesses.deps.json
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\bin\Debug\netcoreapp3.1\GetProcesses.runtimeconfig.json
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\bin\Debug\netcoreapp3.1\GetProcesses.runtimeconfig.dev.json
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\bin\Debug\netcoreapp3.1\GetProcesses.dll
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\bin\Debug\netcoreapp3.1\GetProcesses.pdb
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\obj\Debug\netcoreapp3.1\GetProcesses.csprojAssemblyReference.cache
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\obj\Debug\netcoreapp3.1\GetProcesses.AssemblyInfoInputs.cache
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\obj\Debug\netcoreapp3.1\GetProcesses.AssemblyInfo.cs
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\obj\Debug\netcoreapp3.1\GetProcesses.dll
+C:\Users\nevie\Desktop\NewFolderXD\GetProcesses\GetProcesses\obj\Debug\netcoreapp3.1\GetProcesses.pdb

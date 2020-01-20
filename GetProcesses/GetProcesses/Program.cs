@@ -8,11 +8,12 @@ namespace GetProcesses
     {
         static void Main()
         {
-            var dataManager = new DataManager();
-            var myProcess = new Processes();
-            myProcess.Save(myProcess);
-            myProcess.List();
-
+            var myProcess = new Proc(Process.GetProcesses());
+            Console.WriteLine(myProcess.ProcList.Count);
+            foreach (var item in myProcess.ProcList)
+            {
+                Console.WriteLine(item.Name);
+            }
         }
 
     }

@@ -17,17 +17,15 @@ namespace GetProcesses
                 processes.LocalAll.Add(process);
             }
 
-            Proc.Seriali(processes.LocalAll);
-            var processes2 = new Proc();
-            processes2.DeSerial();
-            foreach (var item in processes2.ProcList)
+            DataManager.Serial(processes.LocalAll);
+            var processesFigureOut = new Processes();
+            DataManager.DeSerial(processesFigureOut);
+            foreach (var item in processesFigureOut.LocalAll)
             {
-                Console.WriteLine(item.CpuUsage);
+                Console.WriteLine(item.GetType());
             }
 
+            //Proc.Kill();
         }
-
-
     }
-
 }

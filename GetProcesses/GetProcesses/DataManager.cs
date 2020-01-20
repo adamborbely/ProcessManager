@@ -1,31 +1,30 @@
-﻿//using System;
-//using System.IO;
-//using System.Xml;
-//using System.Runtime.Serialization;
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Xml.Serialization;
 
-//using System.Xml.Serialization;
+namespace GetProcesses
 
-//namespace GetProcesses
-//{
-//    class DataManager
-//    {
-//        private string path = "database.xml";
+{
+    class DataManager
+    {
+        private static string path = "database.xml";
 
-//        public void Save(Processes process)
-//        {
-//            XmlSerializer serializer = new XmlSerializer(typeof(Processes));
-//            using (TextWriter tw = new StreamWriter(path))
-//            {
-//                serializer.Serialize(tw, process);
-//            }
-//        }
-//        public void Load()
-//        {
-//            XmlSerializer deserializer = new XmlSerializer(typeof(Processes));
-//            TextReader reader = new StreamReader(path);
-//            object obj = deserializer.Deserialize(reader);
-//            var bowser = (Processes)obj;
-//        }
-
-//    }
-//}
+        public static void Serial(List<Proc> allProcesses)
+        {
+            using (Stream fs = new FileStream(path,
+                FileMode.Create, FileAccess.Write, FileShare.None))
+            {
+                XmlSerializer serializer2 = new XmlSerializer(typeof(List<Proc>));
+                serializer2.Serialize(fs, allProcesses);
+            }
+        }
+        public static void DeSerial(Processes processes)
+        {
+            XmlSerializer serializer3 = new XmlSerializer(typeof(List<Proc>));
+            using (FileStream fs2 = File.OpenRead(path))
+            {
+                processes.LocalAll = (List<Proc>)serializer3.Deserialize(fs2);
+            }
+        }
+    }
+}

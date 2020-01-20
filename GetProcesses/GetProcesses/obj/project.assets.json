@@ -8,27 +8,20 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\nevie\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\borbe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nevie\\Desktop\\NewFolderXD\\GetProcesses\\GetProcesses\\GetProcesses.csproj",
+      "projectUniqueName": "C:\\Learning\\XML_well\\GetProcesses\\GetProcesses\\GetProcesses.csproj",
       "projectName": "GetProcesses",
-      "projectPath": "C:\\Users\\nevie\\Desktop\\NewFolderXD\\GetProcesses\\GetProcesses\\GetProcesses.csproj",
-      "packagesPath": "C:\\Users\\nevie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nevie\\Desktop\\NewFolderXD\\GetProcesses\\GetProcesses\\obj\\",
+      "projectPath": "C:\\Learning\\XML_well\\GetProcesses\\GetProcesses\\GetProcesses.csproj",
+      "packagesPath": "C:\\Users\\borbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Learning\\XML_well\\GetProcesses\\GetProcesses\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\nevie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\borbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

@@ -22,7 +22,7 @@ namespace GetProcesses
             processes2.DeSerial();
             foreach (var item in processes2.ProcList)
             {
-                Console.WriteLine(item.RunningTime);
+                Console.WriteLine(item.CpuUsage);
             }
 
         }

@@ -33,7 +33,8 @@ namespace GetProcesses
                 this.Name = process.ProcessName;
                 this.Id = process.Id;
                 this.StartTime = process.StartTime;
-                this.RunningTime = process.UserProcessorTime;
+                this.RunningTime = DateTime.Now - StartTime;
+                this.Threads = process.Threads.Count;
             }
             catch (Exception)
             {
@@ -50,7 +51,7 @@ namespace GetProcesses
             //info.AddValue("CpuUsage", CpuUsage);
             //info.AddValue("MemoryUsage", MemoryUsage);
             info.AddValue("RunningTime", RunningTime);
-            //info.AddValue("Threads", Threads);
+            info.AddValue("Threads", Threads);
         }
         public Proc(SerializationInfo info, StreamingContext context)
         {

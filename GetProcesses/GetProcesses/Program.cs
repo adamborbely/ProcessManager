@@ -22,10 +22,8 @@ namespace GetProcesses
             DataManager.DeSerial(processesFigureOut);
             foreach (var item in processesFigureOut.LocalAll)
             {
-                Console.WriteLine(item.GetType());
+                Console.WriteLine(item.CpuUsage);
             }
-
-            //Proc.Kill();
         }
     }
 }

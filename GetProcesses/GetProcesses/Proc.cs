@@ -18,6 +18,7 @@ namespace GetProcesses
         public TimeSpan RunningTime;
         public int Threads;
         public List<Proc> ProcList = new List<Proc>();
+        public string comment;
 
         public Proc() { }
         public Proc(Process process)
@@ -65,7 +66,7 @@ namespace GetProcesses
             var startTime = DateTime.UtcNow;
             var startCpuUsage = Process.GetCurrentProcess().TotalProcessorTime;
 
-            await Task.Delay(2);
+            await Task.Delay(0);
 
             var endTime = DateTime.UtcNow;
             var endCpuUsage = Process.GetCurrentProcess().TotalProcessorTime;
@@ -91,6 +92,24 @@ namespace GetProcesses
                 {
 
                     Console.WriteLine("I can't kill everything :(  " + process.ProcessName);
+                }
+            }
+        }
+        public static void RunNewProcess(string txtOpen)
+        {
+            if (!string.IsNullOrEmpty(txtOpen))
+            {
+                try
+                {
+                    Process proc = new Process();
+                    proc.StartInfo.UseShellExecute = true;
+                    proc.StartInfo.FileName = txtOpen;
+                    proc.Start();
+                }
+                catch (Exception ex)
+                {
+
+                    throw;
                 }
             }
         }
